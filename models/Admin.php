@@ -43,7 +43,6 @@ class Admin extends ActiveRecord {
 
         if(!$autenticado) {
             self::$errores[] = 'El correo o la contraseña no son correctos';
-            debugear(self::$errores);
             return;
         }
 

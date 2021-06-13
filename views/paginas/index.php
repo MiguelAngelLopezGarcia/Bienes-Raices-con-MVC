@@ -1,5 +1,5 @@
 <main class="contenedor seccion">
-        <h1>Más Sobre Nosotros</h1>
+        <h2 data-cy='sobre-nosotros'>Más Sobre Nosotros</h2>
 
         <?php include __DIR__ . '/iconos.php'; ?>
     </main>
@@ -10,18 +10,18 @@
         <?php include __DIR__ . '/listado.php'; ?>
 
         <div class="alinear-derecha">
-            <a href="/propiedades" class="boton-verde">Ver Todas</a>
+            <a data-cy='ver-propiedades' href="/propiedades" class="boton-verde">Ver Todas</a>
         </div>
     </section>
 
-    <section class="imagen-contacto">
+    <section data-cy='imagen-contacto' class="imagen-contacto">
         <h2>Encuentra la casa de tus sueños</h2>
         <p>Rellena el formulario de contacto y un asesor se pondrá en contacto contigo lo antes posible</p>
         <a href="/contacto" class="boton-amarillo">Contáctanos</a>
     </section>
 
     <div class="contenedor seccion seccion-inferior">
-        <section class="blog">
+        <section data-cy='blog' class="blog">
             <h3>Nuestro Blog</h3>
 
             <article class="entrada-blog">
@@ -63,7 +63,7 @@
             </article>
         </section>
 
-        <section class="comentarios">
+        <section data-cy='comentarios' class="comentarios">
             <h3>Comentarios</h3>
 
             <div class="comentario">
